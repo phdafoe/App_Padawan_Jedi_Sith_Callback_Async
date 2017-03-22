@@ -104,17 +104,22 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYp-Aa-kbZ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYp-Aa-kbZ">
                                 <rect key="frame" x="0.0" y="573" width="375" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="AqR-c9-nZj"/>
+                                </constraints>
                                 <state key="normal" title="Cancel all operations"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ILq-fO-vNi" firstAttribute="leading" secondItem="TDX-Ga-hn3" secondAttribute="leading" id="FKL-dS-3z7"/>
+                            <constraint firstItem="LYp-Aa-kbZ" firstAttribute="leading" secondItem="TDX-Ga-hn3" secondAttribute="leading" id="HgJ-pM-AG1"/>
+                            <constraint firstItem="E65-tx-SNH" firstAttribute="top" secondItem="LYp-Aa-kbZ" secondAttribute="bottom" id="kxc-FA-Znr"/>
                             <constraint firstAttribute="trailing" secondItem="ILq-fO-vNi" secondAttribute="trailing" id="vUL-IZ-jbY"/>
+                            <constraint firstAttribute="trailing" secondItem="LYp-Aa-kbZ" secondAttribute="trailing" id="xKe-pK-n8Z"/>
                             <constraint firstItem="ILq-fO-vNi" firstAttribute="top" secondItem="vau-9L-uA8" secondAttribute="bottom" id="yfK-IP-1EO"/>
                         </constraints>
                     </view>
